@@ -56,4 +56,10 @@ The motor controller receives the requested desk height from the general control
 
 The LED matrix will be installed near the backplate of the desk, below the monitors, and hidden behind a thin wooden plate to allow the light to shine through while keeping the matrix itself invisible. The LED matrix will display the UI, including the current profile, the song playing on Spotify, or the time.
 
+## Some Issues
+
+Apparently, the latest version of the gearbox has some issues with resonance frequencies.
+
+{{< youtubeLite id="RDbMEwErgc8" label="Gearbox Noise Issue" >}}
+
 ---
