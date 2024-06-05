@@ -20,15 +20,37 @@ This is the flutter companion app for the [printer housing project]({{<ref "proj
   {{< github repo="AndreasUrlberger/Printer4WebFlutterApp" >}}
 </div>
 
-## Monitoring
-TODO: Video or image of the app
+## Overview
+{{< youtubeLite id=QaElfKA9zng label="Printer4Web Overview">}}
 
-In the first tab, you can track the print progress and watch a live video feed of the printer. When launched, the app connects to the Raspberry Pi, activates the light, and starts the video stream. It also displays two graphs showing the temperature history inside the housing and the heatbed. Additionally, you can view the current temperatures outside the housing and at the nozzle.
+## Homescreen
+
+{{< gallery >}}
+  <img src="Printer4Web_Homescreen_light.png" class="grid-w50" />
+  <img src="Printer4Web_Homescreen_dark.png" class="grid-w50" />
+{{< /gallery >}}
+
+On the homescreen, you can track the print progress and watch a live video feed of the printer. When launched, the app connects to the Raspberry Pi, activates the light, and starts the video stream. You also get an estimate of the remaining print time.
+
+<!-- In the first tab, you can track the print progress and watch a live video feed of the printer. When launched, the app connects to the Raspberry Pi, activates the light, and starts the video stream. It also displays two graphs showing the temperature history inside the housing and the heatbed. Additionally, you can view the current temperatures outside the housing and at the nozzle. -->
+
+## Printer Information
+
+{{< gallery >}}
+  <img src="Printer4Web_Printer_Info_light.png" class="grid-w50" />
+  <img src="Printer4Web_Printer_Info_dark.png" class="grid-w50" />
+{{< /gallery >}}
+
+On the printer information tab, you can view the temperature of the heatbed and nozzle, preheat or cool down the printer, or connect to the PrusaLink website.
 
 ## Configuration
-TODO: Image of print profiles
 
-Easily adjust the target temperature by switching between predefined print profiles or creating a custom profile. You can also preheat the heatbed and nozzle, toggle temperature control, and check the current fan speed.
+{{< gallery >}}
+  <img src="Printer4Web_Housing_Info_light.png" class="grid-w50" />
+  <img src="Printer4Web_Print_Profiles_light.png" class="grid-w50" />
+{{< /gallery >}}
+
+On the configuration tab, you get an overview of the current temperature at the top and bottom of the housing, the outside temperature and the current fan speed. Additionally, you can easily adjust the target temperature by switching between predefined print profiles or creating a custom profile.
 
 
 ## History
