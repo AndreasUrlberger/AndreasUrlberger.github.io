@@ -3,6 +3,7 @@ title: "Tank Game"
 description: "Fun little tank game with ricocheting bullets."
 tags: ["C++", "Unreal Engine", "Game Dev"]
 date: 2019-05-23
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 1
 

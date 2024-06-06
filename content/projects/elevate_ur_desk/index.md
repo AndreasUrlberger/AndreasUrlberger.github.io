@@ -3,6 +3,7 @@ title: "Elevate Ur Desk"
 description: "Custom built, height adjustable desk."
 tags: ["C++", "Arduino", "Embedded"]
 date: 2023-01-18
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 2
 

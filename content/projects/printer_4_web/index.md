@@ -3,6 +3,7 @@ title: "Printer 4 Web"
 description: "Flutter companion app for printer housing."
 tags: ["Flutter", "Dart", "Web", "App-Development"]
 date: 2023-03-07
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 3
 

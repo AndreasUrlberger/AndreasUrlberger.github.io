@@ -3,6 +3,7 @@ title: "Remind Me"
 description: "An Alexa skill to assist Alzheimer's patients in remembering appointments and necessary items."
 tags: ["AWS", "Alexa", "Java", "Student Project"]
 date: 2021-04-06
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 4
 
