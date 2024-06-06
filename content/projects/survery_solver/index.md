@@ -3,6 +3,7 @@ title: "Survey Solver"
 description: "A software tool designed to streamline the evaluation of free-text responses in environmental surveys."
 tags: ["AWS", "Java", "JavaFX", "Student Project"]
 date: 2021-07-19
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 5
 

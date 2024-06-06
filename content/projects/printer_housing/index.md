@@ -3,6 +3,7 @@ title: "Printer Housing"
 description: "Temperature control and monitoring of 3D printer."
 tags: ["C++", "Embedded", "Raspberry Pi"]
 date: 2021-08-30
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 2
 

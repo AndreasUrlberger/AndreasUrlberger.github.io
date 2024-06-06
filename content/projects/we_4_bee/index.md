@@ -3,6 +3,7 @@ title: "We 4 Bee"
 description: "A Android application that encourages users to design their gardens in a bee-friendly way."
 tags: ["Kotlin", "Android", "Figma", "Student Project"]
 date: 2022-07-06
+showTableOfContents: true
 # series: ["Projects"]
 # series_order: 6
 
