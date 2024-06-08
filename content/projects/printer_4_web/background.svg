@@ -5,7 +5,6 @@
     <pattern id="pid-0.7735807359934106" x="0" y="0" width="345.6" height="345.6"
       patternUnits="userSpaceOnUse">
       <g transform="scale(1.35)">
-        <g>
           <line x1="237.6288884328494" x2="201.39714008747956" y1="119.05338354492488"
             y2="155.28513189029474" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>
           <line x1="237.6288884328494" x2="201.39714008747956" y1="-392.9466164550751"
@@ -188,10 +187,7 @@
             y2="197.35958934724894" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>
           <line x1="617.4923704804352" x2="543.549625942354" y1="123.41684480916788"
             y2="197.35958934724894" stroke-width="15" stroke="#93dbe9" stroke-linecap="round"></line>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"
-            keyTimes="0;1" repeatCount="indefinite" dur="10s"></animateTransform>
-        </g>
-        <g>
+
           <line x1="95.73622575770466" x2="50.085335235319484" y1="20.45659654328417"
             y2="66.10748706566935" stroke-width="15" stroke="#689cc5" stroke-linecap="round"></line>
           <line x1="95.73622575770466" x2="50.085335235319484" y1="-491.54340345671585"
@@ -376,10 +372,7 @@
             y2="97.6277178462727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>
           <line x1="602.7628528697649" x2="584.9251498049699" y1="79.79001478147771"
             y2="97.6277178462727" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"
-            keyTimes="0;1" repeatCount="indefinite" dur="5s"></animateTransform>
-        </g>
-        <g>
+            
           <line x1="93.6896305353637" x2="75.71575147590588" y1="83.83758835275793"
             y2="101.81146741221576" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>
           <line x1="93.6896305353637" x2="75.71575147590588" y1="-428.16241164724204"
@@ -564,9 +557,7 @@
             y2="13.536512698714214" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>
           <line x1="254.85435949520382" x2="240.10841684705935" y1="254.79057005056973"
             y2="269.5365126987142" stroke-width="15" stroke="#5e6fa3" stroke-linecap="round"></line>
-          <animateTransform attributeName="transform" type="translate" values="0 0;-256 256"
-            keyTimes="0;1" repeatCount="indefinite" dur="10.3333333333333335s"></animateTransform>
-        </g>
+            
       </g>
     </pattern>
   </defs>
