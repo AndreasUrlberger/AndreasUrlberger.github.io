@@ -1,1 +1,15 @@
 {{/*  <a rel="me" href="https://masto.ai/@blowfish"></a>  */}}
+
+{{/*  Mark all external links (except for github, because of banners) with a external link symbol */}}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    a[href^="http://"]:not([href*="localhost"]):not([href*="github.com"]):not([href*="linkedin.com"]):after,
+    a[href^="https://"]:not([href*="localhost"]):not([href*="github.com"]):not([href*="linkedin.com"]):after {
+        content: "\f35d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        padding-left: 4px;
+        font-size: 0.8em; /* Adjust this value to change the icon size */
+        vertical-align: middle; /* Center the icon vertically */
+    }
+</style>
