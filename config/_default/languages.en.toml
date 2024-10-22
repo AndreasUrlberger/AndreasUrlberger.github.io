@@ -5,24 +5,24 @@ weight = 1
 title = "Andreas Urlberger"
 
 [params]
-  displayName = "English"
-  isoCode = "en"
-  rtl = false
-  dateFormat = "2 January 2006"
-  # Light mode
-  logo = "/img/Logo_light.png"
-  # Dark mode
-  secondaryLogo = "/img/Logo_dark.png"
-  # TODO: Find out where this is used and replace it accordingly
-  description = " "
+displayName = "English"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+# Light mode
+logo = "/img/Logo_light.png"
+# Dark mode
+secondaryLogo = "/img/Logo_dark.png"
+# TODO: Find out where this is used and replace it accordingly
+description = " "
 
 
-[author]
-  name = "Andreas Urlberger"
-  image = "/img/andreas_urlberger.jpg"
-  headline = "Passionate Computer Science Student."
-  bio = "Passionate Computer Science Student."
-  links = [
-    { github = "https://github.com/AndreasUrlberger" },
-    { linkedin = "https://www.linkedin.com/in/andreas-u-47372625a/" },
-  ]
+[params.author]
+name = "Andreas Urlberger"
+image = "/img/andreas_urlberger.jpg"
+headline = "Passionate Computer Science Student."
+bio = "Passionate Computer Science Student."
+links = [
+  { github = "https://github.com/AndreasUrlberger" },
+  { linkedin = "https://www.linkedin.com/in/andreas-u-47372625a/" },
+]
