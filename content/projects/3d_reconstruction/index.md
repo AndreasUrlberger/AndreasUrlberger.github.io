@@ -23,7 +23,7 @@ To get a grade bonus, we worked on this project for a few weeks in a group of fo
 
 ## Pipeline
 
-We decided on using an iterative SfM approach, processing the images one by one in the same order as they were taken. There are various reasons for choosing one method over the other, but for simplicity we went with an iterative pipeline similar to (Visual) SLAM. The pipeline is split into two major sections, an initial estimation of camera poses and triangulation of landmark positions, and a BA adjustment step after each iteration to minimize the reprojection error. 
+We decided on using an iterative SfM approach, processing the images one by one in the same order as they were taken. There are various reasons for choosing one method over the other, but for simplicity we went with an iterative pipeline similar to (Visual) SLAM. The pipeline is split into two major sections, an initial estimation of camera poses and triangulation of landmark positions, and a bundle adjustment step after each iteration to minimize the reprojection error. 
 
 ![Overview of our SfM pipeline](our_pipeline.svg)
 
