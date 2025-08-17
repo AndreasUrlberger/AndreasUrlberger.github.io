@@ -43,7 +43,7 @@ The general controller is the brain of the desk, coordinating all its actions. I
 
 The control panel features 5 buttons, a piezo buzzer, and a rotary encoder, and is integrated into the underside of the desk for easy access while keeping it out of sight. The panel's menu system allows for desk movement, profile configuration, and control of peripherals like the LED strip and Spotify Connect. It connects to the general controller via UART.
 
-The control panel listens for button presses and rotary encoder rotations, applying a hysteretic filter to prevent accidental changes. It encodes button presses into single clicks, double clicks, long presses, and double click-and-hold actions. Despite using a capacitor to debounce the buttons, the software applies an additional debounce to eliminate residual noise.
+The control panel listens for button presses and rotary encoder rotations, applying a hysteretic filter to prevent accidental changes. It encodes button presses into single clicks, double clicks, long presses, and double click-and-hold actions. Despite using a capacitor to debounce the button signals, it is still necessary to apply software debouncing to eliminate any residual noise.
 
 One additional feature is the piezo buzzer, which can play simple songs or sound effects.
 
@@ -59,7 +59,7 @@ The LED matrix will be installed near the backplate of the desk, below the monit
 
 ## Some Issues
 
-Apparently, the latest version of the gearbox has some issues with resonance frequencies.
+Apparently, the latest version of the gearbox has some issues with resonance frequencies, which cause quite some noise at certain speeds. 😅
 
 {{< youtubeLite id="RDbMEwErgc8" label="Gearbox Noise Issue" >}}
 
